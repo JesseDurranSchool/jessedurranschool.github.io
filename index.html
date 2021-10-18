@@ -1,0 +1,46 @@
+<!DOCTYPE=html>
+<html>
+	<head>
+		<title>Breadboard Home</title>
+		<style>
+			#topBar {
+				width: 100vw;
+				height: 10vmin;
+				z-index: 10;
+				top: 0px;
+				left: 0;
+				background-color: #E8D1DC;
+				position: fixed;
+			}
+			#topBarLogo {
+				margin: 1vmin;
+				width: 28vmin;
+				height: 8vmin;
+				user-select: none;
+				-moz-user-select: none;
+				-webkit-user-select: none;
+				-webkit-touch-callout: none;
+				-ms-user-select: none;
+			}
+			#mainText {
+				padding-top: 5%;
+				font-size: 500%;
+				text-align: justify;
+				text-indent: 5%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="topBar">
+			<a href="Home.html">
+				<img src="logos/main-text.png" id="topBarLogo">
+			</a>
+		</div>
+		
+		<script>
+			var localDate = new Date();
+			console.log(localDate.getTimezoneOffset());
+			document.getElementById("topBarLogo").setAttribute("draggable", false);
+		</script>
+	</body>
+</html>
