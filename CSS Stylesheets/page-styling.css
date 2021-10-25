@@ -1,0 +1,13 @@
+#page{
+	padding-top:7em;
+	width:100em;
+	margin:auto;
+	position:relative;
+}
+.box{
+	background:rgb(226, 233, 233);
+	padding-top:1em;
+	padding-bottom:1em;
+	padding-left:3em;
+	padding-right:4em;
+}
