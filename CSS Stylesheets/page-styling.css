@@ -10,4 +10,11 @@
 	padding-bottom:1em;
 	padding-left:3em;
 	padding-right:4em;
+	overflow:hidden;
+	font-size:1.25em;
+}
+.left-image{
+	width:20em;
+	float:left;
+	margin-right:2em;
 }
