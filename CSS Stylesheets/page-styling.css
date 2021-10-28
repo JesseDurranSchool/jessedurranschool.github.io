@@ -1,6 +1,6 @@
 #page{
 	padding-top:7em;
-	width:100em;
+	max-width:100em;
 	margin:auto;
 	position:relative;
 }
@@ -17,4 +17,7 @@
 	width:20em;
 	float:left;
 	margin-right:2em;
+}
+.right-text{
+	float:right;
 }
