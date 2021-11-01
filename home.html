@@ -5,6 +5,7 @@
 		<link rel="icon" href="Logos/Breadboard Site Icon.png">
 		<link rel="stylesheet" href="CSS Stylesheets/topbar.css">
 		<link rel="stylesheet" href="CSS Stylesheets/page-styling.css">
+		<link rel=
 		<style>
 			
 		</style>
@@ -18,10 +19,35 @@
 		</div>
 		<div id="page">
 			<div class="slideshow-container">
-				<div class="numbertext">1/3</div>
-				<img src="Images/placeholder image.png" class="slide-image">
-				<a class="prev">&#10094;</a>
-				<a class="next">&#10095;</a>
+				<div class="slides">
+					<div class="numbertext">1/3</div>
+					<div class="img-div">
+						<img src="Images/Cover Final.png" class="slide-image">
+					</div>
+					<div class="slide-text">Issue #2 Out Now!</div>
+				</div>
+				<div class="slides">
+					<div class="numbertext">1/3</div>
+					<div class="img-div">
+						<img src="Images/scr.png" class="slide-image">
+					</div>
+					<div class="slide-text">SCR Chips - Why they're useful</div>
+				</div>
+				<div class="slides">
+					<div class="numbertext">1/3</div>
+					<div class="img-div">
+						<img src="Images/circuitkit1.png" class="slide-image">
+					</div>
+					<div class="slide-text">Purchase your circuit kits now!</div>
+				</div>
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a><br>
+
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span> 
+					<span class="dot" onclick="currentSlide(2)"></span> 
+					<span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
 			</div>
 			
 			<br>
@@ -35,5 +61,6 @@
 			var localDate = new Date();
 			console.log(localDate.getTimezoneOffset());
 		</script>
+		<script type="text/javascript" src="Scripts/slide.js"></script>
 	</body>
 </html>
